@@ -10,9 +10,9 @@ While most existing methods focus on adapting driving tasks to pre-trained large
 | --------------- | ------------ | -------------------------- | ------------------------------------------------- | --------------------------------------- | ---------------------------------------------- | --------------------------------------- |
 | **Stereo Anything** | 2024/11/22   | Large Stereo Model         | Stereo-based Depth Estimation                     | Stereo Anything                         | [Xianda Guo](https://github.com/XiandaGuo)     | https://github.com/XiandaGuo/OpenStereo |
 | **Stag-1**          | 2024/12/9    | Large Simulation Model     | 4D Photorealistic Simulation                      | Spatial-Temporal simulAtion for drivinG | [Lening Wang](https://github.com/LeningWang)   | https://github.com/wzzheng/Stag         |
-| **Driv3R**          | 2024/12/10   | Large Reconstruction Model | Pose-free Dense Reconstruction                    | TBD                                     | [Fei Xin](https://github.com/Barrybarry-Smith) | https://github.com/Barrybarry-Smith/Driv3R                                     |
-| **GPD-1**         | 2024/12/11   | Latent World Model         | Close-Loop Simulation, Planning, Scene Generation | TBD                                     | Zixun Xie                                      | TBD                                     |
-| **Doe-1**           | 2024/12/12   | Large World Model          | End-to-End Perception, Prediction, Planning       | TBD                                     | Zetian Xia                                     | TBD                                     |
+| **Driv3R**          | 2024/12/10   | Large Reconstruction Model | Pose-free Dense Reconstruction                    | DRIVing 3d Reconstruction             | [Fei Xin](https://github.com/Barrybarry-Smith) | https://github.com/Barrybarry-Smith/Driv3R                                     |
+| **GPD-1**         | 2024/12/12   | Latent World Model         | Close-Loop Simulation, Planning, Scene Generation |  Generative Pre-training for Driving      | [Zixun Xie](https://github.com/rainyNighti)     | https://github.com/wzzheng/GPD)                            |
+| **Doe-1**           | 2024/12/13   | Large World Model          | End-to-End Perception, Prediction, Planning       | TBD                                     | Zetian Xia                                     | TBD                                     |
 | **DrivingRecon**    | 2024/12/13   | Large Gaussian Model       | Generalizable 4D Gaussian Reconstruction          | TBD                                     | [Hao Lu](https://github.com/LuPaoPao)          | TBD                                     |
 | **Owl-1**           | 2024/12/16   | Video Generation Model     | End-to-End Planning and Generation                | TBD                                     | [Yuanhui Huang](https://huang-yh.github.io/)   | TBD                                     |
 
@@ -22,7 +22,7 @@ While most existing methods focus on adapting driving tasks to pre-trained large
 | ---------------- | ------------ | ---------------------------------- | -------------------------------------------- | ------------------------------------------ |
 | **EmbodiedOcc**      | 2024/12/6    | Embodied 3D Occupancy Prediction   | [Yuqi Wu](https://github.com/YkiWu)          | https://github.com/YkiWu/EmbodiedOcc       |
 | **GaussianFormer-2** | 2024/12/6    | Multi-View 3D Occupancy Prediction | [Yuanhui Huang](https://huang-yh.github.io/) | https://github.com/huang-yh/GaussianFormer |
-| **TBD**              | 2024/12/13   | Streaming 3D Occupancy Prediction  | [Sicheng Zuo](https://github.com/zuosc19)    | TBD                                        |
+| **TBD**              | 2024/12/17   | Streaming 3D Occupancy Prediction  | [Sicheng Zuo](https://github.com/zuosc19)    | TBD                                        |
 
 ## Demos
 
@@ -95,6 +95,22 @@ If you find this project helpful, please consider citing the following papers:
       author={Yuanhui Huang and Amonnut Thammatadatrakoon and Wenzhao Zheng and Yunpeng Zhang and Dalong Du and Jiwen Lu},
       journal={arXiv preprint arXiv:2412.04384},
       year={2024}
+}
+
+### Driv3R
+@article{driv3r,
+  title={Driv3R: Learning Dense 4D Reconstruction for Autonomous Driving}, 
+  author={Fei, Xin and Zheng, Wenzhao and Duan, Yueqi and Zhan, Wei and Tomizuka, Masayoshi and Keutzer, Kurt and Lu, Jiwen},
+  journal={arXiv preprint arXiv:2412.06777},
+  year={2024}
+}
+
+### GPD-1
+  @article{gpd-1,
+    title={GPD-1: Generative Pre-training for Driving},
+    author={Xie, Zixun and Zuo, Sicheng and Zheng, Wenzhao and Zhang, Yunpeng and Du, Dalong and Zhou, Jie and Lu, Jiwen and Zhang, Shanghang},
+    journal={arXiv preprint arXiv:2412.08643},
+    year={2024}
 }
 
 ```
