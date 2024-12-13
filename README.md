@@ -2,7 +2,7 @@
 
 ![logo](./assets/logo.jpg)
 
-While most existing methods focus on adapting driving tasks to pre-trained large language models or vision-language models, we design a series of large driving models specifically for autonomous driving.
+While most existing methods focus on adapting driving tasks to pre-trained large language models or vision-language models (**Large Models for Autonomous Driving**), we design a series of **Large Driving Models** specifically for autonomous driving.
 
 ## Large Driving Model Zoo (Literally!)
 
