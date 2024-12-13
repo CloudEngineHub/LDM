@@ -9,12 +9,12 @@ While most existing methods focus on adapting driving tasks to pre-trained large
 | Model           | Release Data | Function                   | Task                                              | Why the name?                           | Core Contributor                               | Code                                    |
 | --------------- | ------------ | -------------------------- | ------------------------------------------------- | --------------------------------------- | ---------------------------------------------- | --------------------------------------- |
 | **Stereo Anything** | 2024/11/22   | Large Stereo Model         | Stereo-based Depth Estimation                     | Stereo Anything                         | [Xianda Guo](https://github.com/XiandaGuo)     | https://github.com/XiandaGuo/OpenStereo |
-| **Stag-1**          | 2024/12/9    | Large Simulation Model     | 4D Photorealistic Simulation                      | Spatial-Temporal simulAtion for drivinG | [Lening Wang](https://github.com/LeningWang)   | https://github.com/wzzheng/Stag         |
-| **Driv3R**          | 2024/12/10   | Large Reconstruction Model | Pose-free Dense Reconstruction                    | DRIVing 3d Reconstruction             | [Fei Xin](https://github.com/Barrybarry-Smith) | https://github.com/Barrybarry-Smith/Driv3R                                     |
-| **GPD-1**         | 2024/12/12   | Latent World Model         | Close-Loop Simulation, Planning, Scene Generation |  Generative Pre-training for Driving      | [Zixun Xie](https://github.com/rainyNighti)     | https://github.com/wzzheng/GPD                            |
-| **Doe-1**           | 2024/12/13   | Large World Model          | End-to-End Perception, Prediction, Planning       | TBD                                     | Zetian Xia                                     | TBD                                     |
-| **DrivingRecon**    | 2024/12/13   | Large Gaussian Model       | Generalizable 4D Gaussian Reconstruction          | TBD                                     | [Hao Lu](https://github.com/LuPaoPao)          | TBD                                     |
-| **Owl-1**           | 2024/12/16   | Video Generation Model     | End-to-End Planning and Generation                | TBD                                     | [Yuanhui Huang](https://huang-yh.github.io/)   | TBD                                     |
+| **Stag-1**          | 2024/12/9    | Large Simulation Model     | 4D Photorealistic Simulation                      | **S**patial-Temporal simul**A**tion for drivin**G** | [Lening Wang](https://github.com/LeningWang)   | https://github.com/wzzheng/Stag         |
+| **Driv3R**          | 2024/12/10   | Large Reconstruction Model | Pose-free Dense Reconstruction                    | **DRIV**ing **3**d **R**econstruction | [Fei Xin](https://github.com/Barrybarry-Smith) | https://github.com/Barrybarry-Smith/Driv3R                                     |
+| **GPD-1**         | 2024/12/12   | Latent World Model         | Close-Loop Simulation, Planning, Scene Generation |  **G**enerative **P**re-training for **D**riving  | [Zixun Xie](https://github.com/rainyNighti)     | https://github.com/wzzheng/GPD                            |
+| **Doe-1**           | 2024/12/13   | Large World Model          | End-to-End Perception, Prediction, Planning       | **D**riving w**O**rld modEl           | [Zetian Xia](https://github.com/ztxia) | https://github.com/wzzheng/doe       |
+| **DrivingRecon**    | 2024/12/13   | Large Gaussian Model       | Feed-Forward 4D Gaussian Reconstruction | Driving Reconstruction                | [Hao Lu](https://github.com/LuPaoPao)          | https://github.com/EnVision-Research/DriveRecon |
+| **Owl-1**           | 2024/12/13 | Video Generation Model     | End-to-End Planning and Generation                | **O**mni **W**orld mode**L**         | [Yuanhui Huang](https://huang-yh.github.io/)   | https://github.com/huang-yh/Owl      |
 
 ### Recent not so large models:
 
@@ -26,7 +26,7 @@ While most existing methods focus on adapting driving tasks to pre-trained large
 
 ## Demos
 
-### Stag-1 
+### Stag-1: Feed-Forward 4D Photorealistic Simulation
 
 #### Freeze Time
 
@@ -40,23 +40,23 @@ While most existing methods focus on adapting driving tasks to pre-trained large
 
 ![demo](./assets/stag3.gif)
 
-### Driv3R
+### Driv3R: Pose-free Dense Reconstruction
 
 ![demo](./assets/driv3r.gif)
 
-### DrivingRecon
+### DrivingRecon: Feed-Forward 4D Gaussian Reconstruction
 
 ![demo](./assets/drivingrecon.gif)
 
-### GPD-1
+### GPD-1: All-in-One Model for Autonomous Driving Simulation
 
 ![demo](./assets/gpd.gif)
 
-### Doe-1
+### Doe-1: Closed-Loop Autonomous Driving
 
 ![demo](./assets/doe.gif)
 
-### EmbodeidOcc
+### EmbodeidOcc: Online Embodied 3D Occupancy Prediction
 
 ![demo](./assets/embodiedocc.gif)
 
@@ -82,9 +82,9 @@ If you find this project helpful, please consider citing the following papers:
 	}
 	
 ### EmbodiedOcc
-@article{wu2024embodiedoccembodied3doccupancy,
+@article{embodiedocc,
       title={EmbodiedOcc: Embodied 3D Occupancy Prediction for Vision-based Online Scene Understanding}, 
-      author={Yuqi Wu and Wenzhao Zheng and Sicheng Zuo and Yuanhui Huang and Jie Zhou and Jiwen Lu},
+      author={Wu, Yuqi and Zheng, Wenzhao and Zuo, Sicheng and Huang, Yuanhui and Zhou, Jie and Lu, Jiwen},
       journal={arXiv preprint arXiv:2412.04380},
       year={2024}
 }
@@ -112,5 +112,31 @@ If you find this project helpful, please consider citing the following papers:
     journal={arXiv preprint arXiv:2412.08643},
     year={2024}
 }
+
+### Doe-1
+@article{doe,
+    title={Doe-1: Closed-Loop Autonomous Driving with Large World Model},
+    author={Zheng, Wenzhao and Xia, Zetian and Huang, Yuanhui and Zuo, Sicheng and Zhou, Jie and Lu, Jiwen},
+    journal={arXiv preprint arXiv:},
+    year={2024}
+}
+
+### DrivingRecon
+@article{Lu2024DrivingRecon,
+        title={DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving},
+        author={Hao LU, Tianshuo XU, Wenzhao ZHENG, Yunpeng ZHANG, Wei ZHAN, Dalong DU, Masayoshi Tomizuka, Kurt Keutzer, Yingcong CHEN},
+        journal={arXiv preprint arXiv:2412.09043},
+        year={2024}
+      }
+
+### Owl-1
+@article{owl-1,
+    title={Owl-1: Omni World Model for Consistent Long Video Generation}, 
+    author={Huang, Yuanhui and Zheng, Wenzhao and Gao, Yuan and Tao, Xin and Wan, Pengfei and Zhang, Di and Zhou, Jie and Lu, Jiwen},
+    journal={arXiv preprint arXiv:2412.09600},
+    year={2024},
+}
+
+
 
 ```
