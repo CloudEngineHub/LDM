@@ -6,27 +6,28 @@ While most existing methods focus on adapting driving tasks to pre-trained large
 
 ## Large Driving Model Zoo (Literally!)
 
-| Model           | Release Data | Function                   | Task                                              | Why the name?                           | Core Contributor                               | Code                                    |
-| --------------- | ------------ | -------------------------- | ------------------------------------------------- | --------------------------------------- | ---------------------------------------------- | --------------------------------------- |
-| **Stereo Anything** | 2024/11/22   | Large Stereo Model         | Stereo-based Depth Estimation                     | Stereo Anything                         | [Xianda Guo](https://github.com/XiandaGuo)     | https://github.com/XiandaGuo/OpenStereo |
-| **Stag-1**          | 2024/12/9    | Large Simulation Model     | 4D Photorealistic Simulation                      | **S**patial-Temporal simul**A**tion for drivin**G** | [Lening Wang](https://github.com/LeningWang)   | https://github.com/wzzheng/Stag         |
-| **Driv3R**          | 2024/12/10   | Large Reconstruction Model | Pose-free Dense Reconstruction                    | **DRIV**ing **3**d **R**econstruction | [Fei Xin](https://github.com/Barrybarry-Smith) | https://github.com/Barrybarry-Smith/Driv3R                                     |
-| **GPD-1**         | 2024/12/12   | Latent World Model         | Close-Loop Simulation, Planning, Scene Generation |  **G**enerative **P**re-training for **D**riving  | [Zixun Xie](https://github.com/rainyNighti)     | https://github.com/wzzheng/GPD                            |
-| **Doe-1**           | 2024/12/13   | Large World Model          | End-to-End Perception, Prediction, Planning       | **D**riving w**O**rld modEl           | [Zetian Xia](https://github.com/ztxia) | https://github.com/wzzheng/doe       |
-| **DrivingRecon**    | 2024/12/13   | Large Gaussian Model       | Feed-Forward 4D Gaussian Reconstruction | Driving Reconstruction                | [Hao Lu](https://github.com/LuPaoPao)          | https://github.com/EnVision-Research/DriveRecon |
-| **Owl-1**           | 2024/12/13 | Video Generation Model     | End-to-End Planning and Generation                | **O**mni **W**orld mode**L**         | [Yuanhui Huang](https://huang-yh.github.io/)   | https://github.com/huang-yh/Owl      |
+| Model               | Function                   | Task                                                 | Core Contributor                               | Code                                            | Release Data | Why the name?                                       |
+| ------------------- | -------------------------- | ---------------------------------------------------- | ---------------------------------------------- | ----------------------------------------------- | ------------ | --------------------------------------------------- |
+| **Stereo Anything** | Large Stereo Model         | Stereo-based Depth Estimation                        | [Xianda Guo](https://github.com/XiandaGuo)     | https://github.com/XiandaGuo/OpenStereo         | 2024/11/22   | Stereo Anything                                     |
+| **Stag-1**          | Large Simulation Model     | 4D Photorealistic Simulation                         | [Lening Wang](https://github.com/LeningWang)   | https://github.com/wzzheng/Stag                 | 2024/12/9    | **S**patial-Temporal simul**A**tion for drivin**G** |
+| **Driv3R**          | Large Reconstruction Model | Pose-free Dense Reconstruction                       | [Fei Xin](https://github.com/Barrybarry-Smith) | https://github.com/Barrybarry-Smith/Driv3R      | 2024/12/10   | **DRIV**ing **3**d **R**econstruction               |
+| **GPD-1**           | Latent World Model         | Close-Loop Simulation, Planning, Scene Generation... | [Zixun Xie](https://github.com/rainyNighti)    | https://github.com/wzzheng/GPD                  | 2024/12/12   | **G**enerative **P**re-training for **D**riving     |
+| **Doe-1**           | Large World Model          | End-to-End Perception, Prediction, Planning...       | [Zetian Xia](https://github.com/ztxia)         | https://github.com/wzzheng/doe                  | 2024/12/13   | **D**riving w**O**rld modEl                         |
+| **DrivingRecon**    | Large Gaussian Model       | Feed-Forward 4D Gaussian Reconstruction              | [Hao Lu](https://github.com/LuPaoPao)          | https://github.com/EnVision-Research/DriveRecon | 2024/12/13   | Driving Reconstruction                              |
+| **Owl-1**           | Video Generation Model     | End-to-End Planning and Generation                   | [Yuanhui Huang](https://huang-yh.github.io/)   | https://github.com/huang-yh/Owl                 | 2024/12/13   | **O**mni **W**orld mode**L**                        |
+
 
 ## Object-Centric Autonomous System
 
 ![logo](./assets/logo_gaussian.png)
 
-| Model                | Release Data | Scenario | Task                               | Core Contributor                             | Code                                       |
-|----------------------|--------------|----------|------------------------------------|----------------------------------------------|--------------------------------------------|
-| **GaussianFormer**   | 2024/5/27    | Outdoor  | Multi-View 3D Occupancy Prediction | [Yuanhui Huang](https://huang-yh.github.io/) | https://github.com/huang-yh/GaussianFormer |
-| **GaussianFormer-2** | 2024/12/6    | Outdoor  | Multi-View 3D Occupancy Prediction | [Yuanhui Huang](https://huang-yh.github.io/) | https://github.com/huang-yh/GaussianFormer |
-| **EmbodiedOcc**      | 2024/12/6    | Indoor   | Embodied 3D Occupancy Prediction   | [Yuqi Wu](https://github.com/YkiWu)          | https://github.com/YkiWu/EmbodiedOcc       |
-| **TBD**              | 2024/12/17   | Outdoor  | Streaming 3D Occupancy Prediction  | [Sicheng Zuo](https://github.com/zuosc19)    | TBD                                        |
-| **TBD**              | 2024/12/17   | Outdoor  | End-to-End Driving                 | [Junjie Wu]()                                | TBD                                        |
+| Model                | Scenario | Task                               | Core Contributor                             | Code                                       | Release Data |
+|----------------------|----------|------------------------------------|----------------------------------------------|--------------------------------------------|--------------|
+| **GaussianFormer**   | Outdoor  | Multi-View 3D Occupancy Prediction | [Yuanhui Huang](https://huang-yh.github.io/) | https://github.com/huang-yh/GaussianFormer | 2024/5/27    |
+| **GaussianFormer-2** | Outdoor  | Multi-View 3D Occupancy Prediction | [Yuanhui Huang](https://huang-yh.github.io/) | https://github.com/huang-yh/GaussianFormer | 2024/12/6    |
+| **EmbodiedOcc**      | Indoor   | Embodied 3D Occupancy Prediction   | [Yuqi Wu](https://github.com/YkiWu)          | https://github.com/YkiWu/EmbodiedOcc       | 2024/12/6    |
+| **TBD**              | Outdoor  | Streaming 3D Occupancy Prediction  | [Sicheng Zuo](https://github.com/zuosc19)    | TBD                                        | 2024/12/17   |
+| **TBD**              | Outdoor  | End-to-End Driving                 | [Junjie Wu]()                                | TBD                                        | 2024/12/17   |
 
 ## Demos
 
