@@ -4,7 +4,7 @@
 
 While most existing methods focus on adapting driving tasks to pre-trained large language models or vision-language models, we design a series of large driving models specifically for autonomous driving.
 
-## Model Zoo (Literally!)
+## Large Driving Model Zoo (Literally!)
 
 | Model           | Release Data | Function                   | Task                                              | Why the name?                           | Core Contributor                               | Code                                    |
 | --------------- | ------------ | -------------------------- | ------------------------------------------------- | --------------------------------------- | ---------------------------------------------- | --------------------------------------- |
@@ -16,13 +16,17 @@ While most existing methods focus on adapting driving tasks to pre-trained large
 | **DrivingRecon**    | 2024/12/13   | Large Gaussian Model       | Feed-Forward 4D Gaussian Reconstruction | Driving Reconstruction                | [Hao Lu](https://github.com/LuPaoPao)          | https://github.com/EnVision-Research/DriveRecon |
 | **Owl-1**           | 2024/12/13 | Video Generation Model     | End-to-End Planning and Generation                | **O**mni **W**orld mode**L**         | [Yuanhui Huang](https://huang-yh.github.io/)   | https://github.com/huang-yh/Owl      |
 
-### Recent not so large models:
+## Object-Centric Autonomous System
 
-| Model            | Release Data | Task                               | Core Contributor                             | Code                                       |
-| ---------------- | ------------ | ---------------------------------- | -------------------------------------------- | ------------------------------------------ |
-| **EmbodiedOcc**      | 2024/12/6    | Embodied 3D Occupancy Prediction   | [Yuqi Wu](https://github.com/YkiWu)          | https://github.com/YkiWu/EmbodiedOcc       |
-| **GaussianFormer-2** | 2024/12/6    | Multi-View 3D Occupancy Prediction | [Yuanhui Huang](https://huang-yh.github.io/) | https://github.com/huang-yh/GaussianFormer |
-| **TBD**              | 2024/12/17   | Streaming 3D Occupancy Prediction  | [Sicheng Zuo](https://github.com/zuosc19)    | TBD                                        |
+![logo](./assets/logo_gaussian.png)
+
+| Model                | Release Data | Scenario | Task                               | Core Contributor                             | Code                                       |
+|----------------------|--------------|----------|------------------------------------|----------------------------------------------|--------------------------------------------|
+| **GaussianFormer**   | 2024/5/27    | Outdoor  | Multi-View 3D Occupancy Prediction | [Yuanhui Huang](https://huang-yh.github.io/) | https://github.com/huang-yh/GaussianFormer |
+| **GaussianFormer-2** | 2024/12/6    | Outdoor  | Multi-View 3D Occupancy Prediction | [Yuanhui Huang](https://huang-yh.github.io/) | https://github.com/huang-yh/GaussianFormer |
+| **EmbodiedOcc**      | 2024/12/6    | Indoor   | Embodied 3D Occupancy Prediction   | [Yuqi Wu](https://github.com/YkiWu)          | https://github.com/YkiWu/EmbodiedOcc       |
+| **TBD**              | 2024/12/17   | Outdoor  | Streaming 3D Occupancy Prediction  | [Sicheng Zuo](https://github.com/zuosc19)    | TBD                                        |
+| **TBD**              | 2024/12/17   | Outdoor  | End-to-End Driving                 | [Junjie Wu]()                                | TBD                                        |
 
 ## Demos
 
@@ -74,28 +78,12 @@ If you find this project helpful, please consider citing the following papers:
 }
 
 ### Stag-1
-@article{wang2024stag-1,
+@article{stag-1,
     title={Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model},
     author={Wang, Lening and Zheng, Wenzhao and Du, Dalong and Zhang, Yunpeng and Ren, Yilong and Jiang, Han and Cui, Zhiyong and Yu, Haiyang and Zhou, Jie and Lu, Jiwen and Zhang, Shanghang},
     journal={arXiv preprint arXiv:},
     year={2024}
 	}
-	
-### EmbodiedOcc
-@article{embodiedocc,
-      title={EmbodiedOcc: Embodied 3D Occupancy Prediction for Vision-based Online Scene Understanding}, 
-      author={Wu, Yuqi and Zheng, Wenzhao and Zuo, Sicheng and Huang, Yuanhui and Zhou, Jie and Lu, Jiwen},
-      journal={arXiv preprint arXiv:2412.04380},
-      year={2024}
-}
-
-### GaussianFormer-2
-@article{huang2024gaussianformer-2,
-      title={GaussianFormer-2: Probabilistic Gaussian Superposition for Efficient 3D Occupancy Prediction}, 
-      author={Yuanhui Huang and Amonnut Thammatadatrakoon and Wenzhao Zheng and Yunpeng Zhang and Dalong Du and Jiwen Lu},
-      journal={arXiv preprint arXiv:2412.04384},
-      year={2024}
-}
 
 ### Driv3R
 @article{driv3r,
@@ -137,6 +125,27 @@ If you find this project helpful, please consider citing the following papers:
     year={2024},
 }
 
+### GaussianFormer-1
+@article{gaussianformer,
+    title={GaussianFormer: Scene as Gaussians for Vision-Based 3D Semantic Occupancy Prediction},
+    author={Huang, Yuanhui and Zheng, Wenzhao and Zhang, Yunpeng and Zhou, Jie and Lu, Jiwen},
+    journal={arXiv preprint arXiv:2405.17429},
+    year={2024}
+}
 
-
+### GaussianFormer-2
+@article{gaussianformer-2,
+      title={GaussianFormer-2: Probabilistic Gaussian Superposition for Efficient 3D Occupancy Prediction}, 
+      author={Yuanhui Huang and Amonnut Thammatadatrakoon and Wenzhao Zheng and Yunpeng Zhang and Dalong Du and Jiwen Lu},
+      journal={arXiv preprint arXiv:2412.04384},
+      year={2024}
+}
+	
+### EmbodiedOcc
+@article{embodiedocc,
+      title={EmbodiedOcc: Embodied 3D Occupancy Prediction for Vision-based Online Scene Understanding}, 
+      author={Wu, Yuqi and Zheng, Wenzhao and Zuo, Sicheng and Huang, Yuanhui and Zhou, Jie and Lu, Jiwen},
+      journal={arXiv preprint arXiv:2412.04380},
+      year={2024}
+}
 ```
