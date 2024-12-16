@@ -12,7 +12,7 @@ While most existing methods focus on adapting driving tasks to pre-trained large
 | **Stag-1**          | Large Simulation Model     | 4D Photorealistic Simulation                         | [Lening Wang](https://github.com/LeningWang)   | https://github.com/wzzheng/Stag                 | 2024/12/9    | **S**patial-Temporal simul**A**tion for drivin**G** |
 | **Driv3R**          | Large Reconstruction Model | Pose-free Dense Reconstruction                       | [Xin Fei](https://github.com/Barrybarry-Smith) | https://github.com/Barrybarry-Smith/Driv3R      | 2024/12/10   | **DRIV**ing **3**d **R**econstruction               |
 | **GPD-1**           | Latent World Model         | Close-Loop Simulation, Planning, Scene Generation... | [Zixun Xie](https://github.com/rainyNighti)    | https://github.com/wzzheng/GPD                  | 2024/12/12   | **G**enerative **P**re-training for **D**riving     |
-| **Doe-1**           | Large World Model          | End-to-End Perception, Prediction, Planning...       | [Zetian Xia](https://github.com/ztxia)         | https://github.com/wzzheng/doe                  | 2024/12/13   | **D**riving w**O**rld modEl                         |
+| **Doe-1**           | Large World Model          | End-to-End Perception, Prediction, Planning...       | [Zetian Xia](https://github.com/ztxia)         | https://github.com/wzzheng/Doe                  | 2024/12/13   | **D**riving w**O**rld modEl                         |
 | **DrivingRecon**    | Large Gaussian Model       | Feed-Forward 4D Gaussian Reconstruction              | [Hao Lu](https://github.com/LuPaoPao)          | https://github.com/EnVision-Research/DriveRecon | 2024/12/13   | Driving Reconstruction                              |
 | **Owl-1**           | Video Generation Model     | End-to-End Planning and Generation                   | [Yuanhui Huang](https://huang-yh.github.io/)   | https://github.com/huang-yh/Owl                 | 2024/12/13   | **O**mni **W**orld mode**L**                        |
 
@@ -26,8 +26,8 @@ While most existing methods focus on adapting driving tasks to pre-trained large
 | **GaussianFormer**   | Outdoor  | Multi-View 3D Occupancy Prediction | [Yuanhui Huang](https://huang-yh.github.io/) | https://github.com/huang-yh/GaussianFormer | 2024/5/27    |
 | **GaussianFormer-2** | Outdoor  | Multi-View 3D Occupancy Prediction | [Yuanhui Huang](https://huang-yh.github.io/) | https://github.com/huang-yh/GaussianFormer | 2024/12/6    |
 | **EmbodiedOcc**      | Indoor   | Embodied 3D Occupancy Prediction   | [Yuqi Wu](https://github.com/YkiWu)          | https://github.com/YkiWu/EmbodiedOcc       | 2024/12/6    |
-| **TBD**              | Outdoor  | Streaming 3D Occupancy Prediction  | [Sicheng Zuo](https://github.com/zuosc19)    | TBD                                        | 2024/12/17   |
-| **TBD**              | Outdoor  | End-to-End Driving                 | [Junjie Wu]()                                | TBD                                        | 2024/12/17   |
+| **GaussianWorld**    | Outdoor  | Streaming 3D Occupancy Prediction  | [Sicheng Zuo](https://github.com/zuosc19)    | https://github.com/zuosc19/GaussianWorld   | 2024/12/16   |
+| **GaussianAD**       | Outdoor  | End-to-End Autonomous Driving      | [Junjie Wu]()                                | https://github.com/wzzheng/GaussianAD      | 2024/12/16   |
 
 ## Demos
 
