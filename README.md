@@ -6,8 +6,10 @@ While most existing methods focus on adapting driving tasks to pre-trained large
 
 ## Path Towards Large Driving Models
 
+### 2022-2023
 ![2023](./assets/2023.png)
 
+### 2024
 ![2024](./assets/2024.png)
 
 ## Large Driving Model Zoo (Literally!)
