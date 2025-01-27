@@ -4,6 +4,12 @@
 
 While most existing methods focus on adapting driving tasks to pre-trained large language models or vision-language models (**Large Models for Autonomous Driving**), we design a series of **Large Driving Models** specifically for autonomous driving.
 
+## Path Towards Large Driving Models
+
+![2023](./assets/2023.png)
+
+![2024](./assets/2024.png)
+
 ## Large Driving Model Zoo (Literally!)
 
 | Model               | Function                   | Task                                                 | Core Contributor                               | Code                                            | Release Data | Why the name?                                       |
